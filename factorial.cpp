@@ -2,12 +2,12 @@
 #include<stdio.h>
 int main()
 {
-	int n,ans=1;
-	scanf("%d",&n);
+	long long n,ans=1;
+	scanf("%lld",&n);
 	if(n==0) printf("1");
 	else{
 		for(int i=n;i>=1;i--) ans*=i;
-		printf("%d",ans);
+		printf("%lld",ans);
 	}
 	return 0;
 }
